@@ -24,9 +24,20 @@ I am going to use the required technologies in the following ways.
   - retrieving ingredients
   - retrieving recipes from Edamam recipes API
 - **DB/Login** - Store ingredients and saved recipes in database. Register and login users. Credentials securely stored in database. Can't save a recipe unless authenticated.
-- **WebSocket** - As each user votes, their saved recipes are broadcast to all other users.
+- **WebSocket** - As each user saves a recipe, their saved recipes are broadcast to all other users.
 
 ### Design Images
 
 ![StartUpDesign](https://github.com/user-attachments/assets/031e5dc9-6550-418b-a472-9908c7528c46)
+
+## HTML Deliverable
+
+For this deliverable I built out the structure of my application using HTML.
+
+ HTML pages - Four HTML page that represent the ability to login, look at all available recipes, recipes that would use the ingrediants you have, and an about page.
+ Links - The login page automatically links to the all recipes page. All other pages are linked together from the menu at the top of the page.
+ Text - Each of the voting choices is represented by a textual description.
+ Images - I put in placeholder images where the recipes will go and where other images will be placed.
+ DB/Login - Input box and submit button for login. The recipes represent data pulled from the database.
+ WebSocket - The saved recipes will be shown in recipes for you page.
 
