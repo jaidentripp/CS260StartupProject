@@ -34,10 +34,10 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I built out the structure of my application using HTML.
 
- HTML pages - Four HTML page that represent the ability to login, look at all available recipes, recipes that would use the ingrediants you have, and an about page.
- Links - The login page automatically links to the all recipes page. All other pages are linked together from the menu at the top of the page.
- Text - Each of the voting choices is represented by a textual description.
- Images - I put in placeholder images where the recipes will go and where other images will be placed.
- DB/Login - Input box and submit button for login. The recipes represent data pulled from the database.
- WebSocket - The saved recipes will be shown in recipes for you page.
+ [x] HTML pages - Four HTML page that represent the ability to login, look at all available recipes, recipes that would use the ingrediants you have, and an about page.
+ [x] Links - The login page automatically links to the all recipes page. All other pages are linked together from the menu at the top of the page.
+ [x] Text - Each of the voting choices is represented by a textual description.
+ [x] Images - I put in placeholder images where the recipes will go and where other images will be placed.
+ [x] DB/Login - Input box and submit button for login. The recipes represent data pulled from the database.
+ [x] WebSocket - The saved recipes will be shown in recipes for you page.
 
