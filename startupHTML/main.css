@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 375px;
+    margin-top: 60px;
   }
   
   header {
@@ -37,7 +38,7 @@ body {
   
   .navbar-brand {
     padding-left: 0.03em;
-    border-bottom: solid rgb(200, 200, 200) thin;
+    border-bottom: solid rgb(62, 96, 75) thin;
     position: static;
     font-size: 3em;
     font-weight: bold;
