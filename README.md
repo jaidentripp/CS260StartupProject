@@ -41,7 +41,7 @@ For this deliverable I built out the structure of my application using HTML.
  - [x] DB/Login - Input box and submit button for login. The recipes represent data pulled from the database.
  - [x] WebSocket - The saved recipes will be shown in recipes for you page.
 
-##CSS Deliverable
+## CSS Deliverable
 
 For this deliverable I properly styled the application into its final appearance.
 
