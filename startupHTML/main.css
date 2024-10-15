@@ -5,11 +5,11 @@ body {
     margin-top: 60px;
   }
   
-  header {
+  /* header {
     flex: 0 80px;
     background-color: #99ad9e;
     color: white;
-  }
+  } */
   
   main {
     flex: 1 calc(100vh - 110px);
@@ -47,12 +47,46 @@ body {
     margin-right: 20px;
   }
 
-  nav {
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #83af8e;
+    z-index: 1000;
+  }
+
+  #nav-bar menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #nav-bar li {
+    float: left;
+    border-right: 2px solid #000000;
+  }
+  
+  #nav-bar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #nav-bar li a:hover {
+    background-color: #4f7156;
+    color: white;
+  }
+
+  /* nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 0 20px;
-  }
+  } */
   
   menu .nav-item {
     padding: 10px 20px;
